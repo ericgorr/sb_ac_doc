@@ -10,7 +10,7 @@ import Cocoa
 
 class ViewController: NSViewController
 {
-    var context: NSManagedObjectContext?
+    dynamic var context: NSManagedObjectContext?
     
     override func viewDidLoad()
     {
